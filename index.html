@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>7 Min Workout</title>
+		<meta name="description" content="simple app for a 7 minute workout">
+		<meta name="viewport" content="width=device-width">
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div id="landing">
+			<h1>7 Min Workout App</h1>
+			<button id="startButton" onclick="doWorkout()">GO!</button>
+		</div>
+		<div id="workout">
+			<div id="currentExcercise">
+				<h2 id="excerciseName">...</h2>
+				<img id="excerciseGlyph" src="theFirstExcercise.png" alt="excerciseDescription" />
+				<div id="individualTimer"></div>
+			</div>
+			<button id="pauseButton" onclick="pauseWorkout()">pause</button>
+			<div id="progressBar">
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+				<p>-</p>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

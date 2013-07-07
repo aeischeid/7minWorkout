@@ -1,0 +1,31 @@
+body {
+	position: relative;
+	max-width: 920px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#landing {
+	position: absolute;
+	left: 0px;
+	transition: left 1s;
+}
+#workout {
+	position: absolute;
+	right: -100%;
+	transition: right 1s;
+}
+
+#progressBar {
+	width: 100%;
+}
+
+#progressBar p {
+	display: inline;
+	width: 20px;
+	padding: 4px 9px;
+	border-radius: 10px;
+	background-color: #b2b2b2;
+	color: #fff;
+}
