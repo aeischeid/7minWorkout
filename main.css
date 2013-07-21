@@ -38,15 +38,19 @@ body {
 	transition: background-position 1s;
 }
 
+/*
+	for the large verticalPoster
+*/
 .jumpingjacks {background-position:0px -185px;}
 .wallsits {background-position:0px -473px;}
 .pushups {background-position:0px -902px;}
 .situps {background-position:0px -1350px;}
-.chairstepups {background-position:0px -1550px;}
-.squats {background-position:0px -1550px;}
-.chairdips {background-position:0px -1550px;}
-.highknees {background-position:0px -1550px;}
-.lunge {background-position:0px -1550px;}
-.push-upandrotate {background-position:0px -1550px;}
-.sideplank {background-position:0px -1550px;}
-['jumping jacks', 'wall sits', 'push ups', 'sit ups', 'chair step ups', 'squats', 'chair dips', 'high knees', 'lunge', 'push-up and rotate', 'side plank' ]
+.chairstepups {background-position:0px -1730px;}
+.squats {background-position:0px -2198px;}
+.chairdips {background-position:0px -2600px;}
+.plank {background-position:0px -2990px;}
+.highknees {background-position:0px -3247px;}
+.lunge {background-position:0px -3680px;}
+.push-upandrotate {background-position:0px -4035px;}
+.sideplank {background-position:0px -4431px;}
+
