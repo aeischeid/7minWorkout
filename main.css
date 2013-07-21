@@ -29,3 +29,24 @@ body {
 	background-color: #b2b2b2;
 	color: #fff;
 }
+
+#excerciseGlyph {
+	height: 365px;
+	width: 500px;
+	background-image:url('imgs/verticalPoster.jpg');
+	background-repeat:no-repeat;
+	transition: background-position 1s;
+}
+
+.jumpingjacks {background-position:0px -185px;}
+.wallsits {background-position:0px -473px;}
+.pushups {background-position:0px -902px;}
+.situps {background-position:0px -1350px;}
+.chairstepups {background-position:0px -1550px;}
+.squats {background-position:0px -1550px;}
+.chairdips {background-position:0px -1550px;}
+.highknees {background-position:0px -1550px;}
+.lunge {background-position:0px -1550px;}
+.push-upandrotate {background-position:0px -1550px;}
+.sideplank {background-position:0px -1550px;}
+['jumping jacks', 'wall sits', 'push ups', 'sit ups', 'chair step ups', 'squats', 'chair dips', 'high knees', 'lunge', 'push-up and rotate', 'side plank' ]
