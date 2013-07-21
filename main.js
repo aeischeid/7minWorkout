@@ -35,7 +35,7 @@ var doWorkout = function (){
 					currentExcercise++
 					count = breakCount
 					timerDown()
-					excerciseName.textContent = excercises[currentExcercise] + ' in' 
+					excerciseName.textContent = excercises[currentExcercise] ? excercises[currentExcercise] + ' in' : 'done' 
 					// advance the master progressBar, change the image
 					workoutEl.querySelector('#progressBar p:nth-child('+currentExcercise+')').textContent = 'x'
 					glyph.className = excercises[currentExcercise].replace(/\s+/g, '')
