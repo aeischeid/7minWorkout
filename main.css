@@ -1,19 +1,28 @@
 body {
 	position: relative;
-	max-width: 920px;
-	margin: 0 auto;
 	text-align: center;
+	width: 100vw;
+	padding: 0px;
+	margin: 0px;
 	font-family: Verdana, Geneva, sans-serif;
 }
 
 #landing {
+	width: 90vw;
+	height: 90vh;
+	padding: 5vh 5vw;
 	position: absolute;
+	background-color: #eee;
 	left: 0px;
 	transition: left 1s;
 }
 #workout {
+	width: 90vw;
+	height: 90vh;
+	padding: 5vh 5vw;
+	background-color: #ddd;
 	position: absolute;
-	right: -100%;
+	right: -100vw;
 	transition: right 1s;
 }
 

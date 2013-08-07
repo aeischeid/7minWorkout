@@ -10,6 +10,7 @@ var doWorkout = function (){
 	var workoutTimer, excerciseTimer, currentExcercise, timeEl
 	currentExcercise = 0
 	// hide the landing view and show the workout view
+	//workoutEl.style.display = 'block'
 	landingEl.style.left = '-100%'
 	workoutEl.style.right = 0
 	// some DOM elements that will be accessed a lot
