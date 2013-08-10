@@ -16,6 +16,13 @@ body {
 	left: 0px;
 	transition: left 1s;
 }
+
+#startButton {
+padding: 15px 25px;
+font-size: 48px;
+font-weight: bold;
+}
+
 #workout {
 	width: 90vw;
 	height: 90vh;
@@ -28,6 +35,7 @@ body {
 
 #progressBar {
 	width: 100%;
+	margin: 14px 0;
 }
 
 #progressBar p {
@@ -42,6 +50,7 @@ body {
 #excerciseGlyph {
 	height: 365px;
 	width: 500px;
+	margin: 0 auto;
 	background-image:url('imgs/verticalPoster.jpg');
 	background-repeat:no-repeat;
 	transition: background-position 1s;
