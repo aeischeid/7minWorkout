@@ -1,6 +1,6 @@
-var excercises = ['jumping jacks', 'wall sits', 'push ups', 'sit ups', 'chair step ups', 'squats', 'chair dips', 'high knees', 'lunge', 'push-up and rotate', 'side plank' ]
-var excerciseDurration = 6
-var breakDurration = 3
+var excercises = ['jumping jacks', 'wall sits', 'push ups', 'sit ups', 'chair step ups', 'squats', 'chair dips', 'plank', 'high knees', 'lunge', 'push-up and rotate', 'side plank' ]
+var excerciseDurration = 30
+var breakDurration = 5
 var workoutEl = document.getElementById('workout')
 var landingEl = document.getElementById('landing')
 var glyph = document.getElementById('excerciseGlyph')

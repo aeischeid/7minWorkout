@@ -51,7 +51,7 @@ font-weight: bold;
 	height: 365px;
 	width: 500px;
 	margin: 0 auto;
-	background-image:url('imgs/verticalPoster.jpg');
+	background-image:url('imgs/verticalPoster.png');
 	background-repeat:no-repeat;
 	transition: background-position 1s;
 }
@@ -59,16 +59,16 @@ font-weight: bold;
 /*
 	for the large verticalPoster
 */
-.jumpingjacks {background-position:0px -185px;}
-.wallsits {background-position:0px -473px;}
-.pushups {background-position:0px -902px;}
+.jumpingjacks {background-position:0px 0px;}
+.wallsits {background-position:0px -415px;}
+.pushups {background-position:0px -915px;}
 .situps {background-position:0px -1350px;}
-.chairstepups {background-position:0px -1730px;}
-.squats {background-position:0px -2198px;}
-.chairdips {background-position:0px -2600px;}
-.plank {background-position:0px -2990px;}
-.highknees {background-position:0px -3247px;}
-.lunge {background-position:0px -3680px;}
-.push-upandrotate {background-position:0px -4035px;}
-.sideplank {background-position:0px -4431px;}
+.chairstepups {background-position:0px -1775px;}
+.squats {background-position:0px -2212px;}
+.chairdips {background-position:0px -2775px;}
+.plank {background-position:0px -3215px;}
+.highknees {background-position:0px -3610px;}
+.lunge {background-position:0px -4125px;}
+.push-upandrotate {background-position:0px -4620px;}
+.sideplank {background-position:0px -5000px;}
 
