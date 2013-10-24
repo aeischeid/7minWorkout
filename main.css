@@ -39,17 +39,18 @@ font-weight: bold;
 }
 
 #progressBar p {
-	display: inline;
-	width: 20px;
-	padding: 4px 9px;
-	border-radius: 10px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	border-radius: 15px;
 	background-color: #b2b2b2;
 	color: #fff;
 }
 
 #excerciseGlyph {
 	height: 365px;
-	width: 500px;
+	max-width: 500px;
 	margin: 0 auto;
 	background-image:url('imgs/verticalPoster.png');
 	background-repeat:no-repeat;
@@ -59,16 +60,16 @@ font-weight: bold;
 /*
 	for the large verticalPoster
 */
-.jumpingjacks {background-position:0px 0px;}
-.wallsits {background-position:0px -415px;}
-.pushups {background-position:0px -915px;}
-.situps {background-position:0px -1350px;}
-.chairstepups {background-position:0px -1775px;}
-.squats {background-position:0px -2212px;}
-.chairdips {background-position:0px -2775px;}
-.plank {background-position:0px -3215px;}
-.highknees {background-position:0px -3610px;}
-.lunge {background-position:0px -4125px;}
-.push-upandrotate {background-position:0px -4620px;}
-.sideplank {background-position:0px -5000px;}
+.jumpingjacks {background-position:50% 0px;}
+.wallsits {background-position:50% -415px;}
+.pushups {background-position:50% -915px;}
+.situps {background-position:50% -1350px;}
+.chairstepups {background-position:50% -1775px;}
+.squats {background-position:50% -2212px;}
+.chairdips {background-position:50% -2775px;}
+.plank {background-position:50% -3215px;}
+.highknees {background-position:50% -3610px;}
+.lunge {background-position:50% -4125px;}
+.push-upandrotate {background-position:50% -4620px;}
+.sideplank {background-position:50% -5000px;}
 

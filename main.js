@@ -1,5 +1,5 @@
 var excercises = ['jumping jacks', 'wall sits', 'push ups', 'sit ups', 'chair step ups', 'squats', 'chair dips', 'plank', 'high knees', 'lunge', 'push-up and rotate', 'side plank' ]
-var excerciseDurration = 6
+var excerciseDurration = 30
 var breakDurration = 5
 var workoutEl = document.getElementById('workout')
 var landingEl = document.getElementById('landing')
@@ -44,7 +44,7 @@ var doWorkout = function (){
 					timerDown()
 					excerciseName.textContent = excercises[currentExcercise] ? excercises[currentExcercise] + ' in' : 'done' 
 					// advance the master progressBar, change the image
-					workoutEl.querySelector('#progressBar p:nth-child('+currentExcercise+')').textContent = 'x'
+					workoutEl.querySelector('#progressBar p:nth-child('+currentExcercise+')').style.backgroundColor = '#444'
 					glyph.className = excercises[currentExcercise].replace(/\s+/g, '')
 				} else {
 					//console.log('should be clearing interval... ', this)
