@@ -1,9 +1,11 @@
 var excercises = ['jumping jacks', 'wall sits', 'push ups', 'sit ups', 'chair step ups', 'squats', 'chair dips', 'plank', 'high knees', 'lunge', 'push-up and rotate', 'side plank' ]
-var excerciseDurration = 30
+var excerciseDurration = 6
 var breakDurration = 5
 var workoutEl = document.getElementById('workout')
 var landingEl = document.getElementById('landing')
 var glyph = document.getElementById('excerciseGlyph')
+var audio1 = document.getElementById('audio1')
+var audio2 = document.getElementById('audio2')
 
 var doWorkout = function (){
 	console.log('startWorkout')
@@ -24,6 +26,10 @@ var doWorkout = function (){
 		var timerDown = function() {
 			timeEl.textContent = count
 			count--
+			if (breakTime) {
+				if (count != -1) { audio1.play() }
+				else { audio2.play() }
+			}
 		}
 		//the first interval doesn't execute until after 1 sec so kick off the first timer tick manually
 		timerDown()
