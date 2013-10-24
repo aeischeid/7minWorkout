@@ -44,7 +44,7 @@ var doWorkout = function (){
 					timerDown()
 					excerciseName.textContent = excercises[currentExcercise] ? excercises[currentExcercise] + ' in' : 'done' 
 					// advance the master progressBar, change the image
-					workoutEl.querySelector('#progressBar p:nth-child('+currentExcercise+')').textContent = 'x'
+					workoutEl.querySelector('#progressBar p:nth-child('+currentExcercise+')').style.backgroundColor = '#444'
 					glyph.className = excercises[currentExcercise].replace(/\s+/g, '')
 				} else {
 					//console.log('should be clearing interval... ', this)
